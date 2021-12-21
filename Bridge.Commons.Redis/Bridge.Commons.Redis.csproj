@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.1</TargetFramework>
+        <PackageId>Bridge.Commons.Redis</PackageId>
+        <Title>Bridge.Commons.Redis</Title>
+        <Version>1.0.0</Version>
+        <Authors>Robson Leao</Authors>
+        <Company>Bridge Core</Company>
+        <Description>
+            Cache package for Redis: Single, Set, HashSet, List, Queue, Stack, SortedSet etc.
+        </Description>
+        <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+        <PackageReleaseNotes>First Version</PackageReleaseNotes>
+        <PackageTags>bridge-core commons redis cache</PackageTags>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Bridge.Commons.Compress" Version="1.0.0"/>
+        <PackageReference Include="StackExchange.Redis" Version="2.2.79"/>
+    </ItemGroup>
+
+</Project>
